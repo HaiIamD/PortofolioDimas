@@ -1,3 +1,4 @@
+<img width="944" alt="Untitled (5)" src="https://github.com/HaiIamD/PortofolioDimas/assets/95232841/5c5fb477-1917-4f12-954f-9c7ffe437763">
 <h2 align="left">Hai 👋, I am Dimas Toriq Sibarani <br>Javascript Developer | Expertise in React & Node.js | Specialized in Web Development</h2>
 
 ###
@@ -70,5 +71,7 @@
 ###
 
 <p align="left">Hallo teman teman semua berikut merupakan tamplate portofolio yang sudah saya buat , Terima Kasih ✨</p>
+
+https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 ###
