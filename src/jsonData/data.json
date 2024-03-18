@@ -1,0 +1,112 @@
+{
+  "navbar": { "title": "dimm's" },
+
+  "header": {
+    "nameHeader": "Dimas Toriq Sibarani",
+    "titleHeader": "A fullstack Javascript developer. Specializing in the MERN Stack technology.",
+    "imageHeader": "/assets/header.png",
+    "userName": "Dimas",
+    "strength": "Implementing clean and efficient code practices to optimize website performance.",
+    "resume": "/assets/resume.pdf",
+    "description": "As a proficient Fullstack developer specialized in the MERN Stack, I excel in database management, server-side application development, and dynamic UI design. With clean coding and strong problem-solving skills, I deliver tailored web solutions while staying updated with the latest technologies.",
+    "complateProject": "7",
+    "proficientInExpertise": "20"
+  },
+
+  "project": [
+    {
+      "image": [
+        "/assets/belajaryuk1.png",
+        "/assets/belajaryuk2.png",
+        "/assets/belajaryuk3.png",
+        "/assets/belajaryuk4.png",
+        "/assets/belajaryuk5.png",
+        "/assets/belajaryuk6.png",
+        "/assets/belajaryuk7.png"
+      ],
+      "title": "BelajarYuk !",
+      "technology": "MongoDB | ExpressJs | React | NodeJs",
+      "description": "BelajarYuk! is an advanced learning management platform crafted with the MERN stack, enriched with exceptional features. Notably, our integration of Stripe payment processing ensures secure and seamless transactions for purchasing courses and accessing premium content. For more details, click the link below.",
+      "link": "https://belajaryuk.vercel.app/"
+    },
+    {
+      "image": ["/assets/catatanku1.png", "/assets/catatanku2.png", "/assets/catatanku3.png", "/assets/catatanku4.png", "/assets/catatanku5.png"],
+      "title": "CatatanKu.",
+      "technology": "MongoDB | ExpressJs | React | NodeJs",
+      "description": "Catatanku is an online platform created with the MERN stack, offering a variety of great features. One standout feature is its user-friendly text editor, similar to Notion, allowing creative note-taking. more details click link down below....",
+      "link": "https://catatanku-sage.vercel.app/"
+    },
+    {
+      "image": [
+        "/assets/devunity1.png",
+        "/assets/devunity2.png",
+        "/assets/devunity3.png",
+        "/assets/devunity4.png",
+        "/assets/devunity5.png",
+        "/assets/devunity6.png"
+      ],
+      "title": "Dev Unity",
+      "technology": "MongoDB | ExpressJs | React | NodeJs",
+      "description": "Dev Unity is an innovative online social media platform developed using the MERN stack, packed with cutting-edge features. Our commitment to user convenience is evident with our integration of real-time chat, seamless post sharing, and robust follow functionalities. Dive deeper into the Dev Unity experience by exploring the link below.",
+      "link": "https://github.com/HaiIamD"
+    },
+    {
+      "image": ["/assets/nebulanex1.png", "/assets/nebulanex2.png", "/assets/nebulanex3.png", "/assets/nebulanex4.png", "/assets/nebulanex5.png"],
+      "title": "NebulaNex",
+      "technology": "MongoDB | ExpressJs | EJS | NodeJs",
+      "description": "NebulaNex sets the standard for secure note-taking websites, built with MongoDB, Express.js, Node.js, and EJS. Leveraging Google authentication for login, NebulaNex guarantees utmost security and peace of mind for its users. Seamlessly create and access your notes while enjoying the confidence of a robust login system. more details click link down below....",
+      "link": "https://github.com/HaiIamD/NebulaNex"
+    },
+    {
+      "image": ["/assets/etherealrhythmsd1.png", "/assets/etherealrhythmsd2.png", "/assets/etherealrhythmsd3.png"],
+      "title": "EtherealRhythmsD",
+      "technology": "Html | Css | Vanilla Javascript",
+      "description": "EtherealRhythmsD is a website built with HTML, CSS, and vanilla JavaScript, offering unparalleled responsiveness and an automatic next song feature upon the conclusion of each track. Immerse yourself in a fluid and uninterrupted musical experience unlike any other.more details click link down below....",
+      "link": "https://github.com/HaiIamD/EtherealRhythmsD"
+    },
+    {
+      "image": ["/assets/movie1.png", "/assets/movie2.png", "/assets/movie3.png", "/assets/movie4.png"],
+      "title": "Movie-Poster-API",
+      "technology": "Html | Css | Vanilla Javascript",
+      "description": "Movie-Poster-API harnesses the power of the OMDB API to provide a seamless movie browsing experience. With features like search and category filters, users can effortlessly navigate through a vast library of films, making it easier than ever to find the perfect movie for any occasion. more details click link down below....",
+      "link": "https://github.com/HaiIamD/Movie-Poster-API"
+    },
+    {
+      "image": ["/assets/oldportofolio1.png", "/assets/oldportofolio2.png", "/assets/oldportofolio3.png"],
+      "title": "Old Portofolio",
+      "technology": "React | Css",
+      "description": "Explore my earlier works and projects through my previous portfolio, constructed with React.js and enhanced with libraries like Swiper and Local Storage. Take a brief trip down memory lane as this platform showcases the evolution of my skills and creativity in a concise yet captivating manner. more details click link down below....",
+      "link": "https://haiiamd.github.io/"
+    }
+  ],
+
+  "tools": [
+    { "name": "React", "image": "/assets/react.png" },
+    { "name": "MongoDB", "image": "/assets/MongoDB.png" },
+    { "name": "Express Js", "image": "/assets/Expressjs.png" },
+    { "name": "Node Js", "image": "/assets/node.png" },
+    { "name": "Bootstrap", "image": "/assets/bootstrap.png" },
+    { "name": "Python", "image": "/assets/python.png" },
+    { "name": "Javascript", "image": "/assets/javascript.png" },
+    { "name": "Figma", "image": "/assets/figma.png" },
+    { "name": "Linux", "image": "/assets/linux.png" },
+    { "name": "Git", "image": "/assets/git.png" },
+    { "name": "NPM", "image": "/assets/npm.png" },
+    { "name": "Postman", "image": "/assets/postman.png" },
+    { "name": "MySQL", "image": "/assets/mysql.png" },
+    { "name": "PHP", "image": "/assets/php.png" },
+    { "name": "Vs Code", "image": "/assets/vscode.png" },
+    { "name": "Vite", "image": "/assets/vite.png" },
+    { "name": "Redux", "image": "/assets/redux.png" },
+    { "name": "Github", "image": "/assets/github.png" },
+    { "name": "Google Cloud", "image": "/assets/googlecloud.png" },
+    { "name": "Laravel", "image": "/assets/laravel.png" }
+  ],
+
+  "contact": {
+    "linkedIn": "your LinkedIn link",
+    "gmail": "youremail@here",
+    "instagram": "your instagram link",
+    "github": "your github link"
+  }
+}

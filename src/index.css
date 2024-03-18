@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --text: #000000;
+  --bg: #ffffff;
+  --bgTrans: #000000af;
+}
+[data-theme='dark'] {
+  --text: #f7f3f3;
+  --bg: #1d1d1d;
+  --bgTrans: #ffffffaf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  transition: all 150ms linear;
+}
+.app {
+  background: var(--bg);
+}
+
+.kotakMain {
+  padding-top: 65px;
+}
+
+.loading {
+  min-height: 100vh;
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noDisplay {
+  display: none;
+}

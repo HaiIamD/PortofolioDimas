@@ -1,0 +1,60 @@
+.swiper-pagination-bullet-active {
+  background-color: #000 !important; /* Memberikan warna latar belakang pada bullet pagination */
+}
+.borderImage {
+  max-height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.borderImageBesar {
+  max-height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleProject {
+  font-size: 45px;
+  font-weight: 900;
+  text-shadow: 0 0 1.5px var(--text);
+  color: var(--text);
+}
+.textKecilProject {
+  font-size: 16px;
+  color: var(--text);
+  cursor: pointer;
+}
+.descProject {
+  padding-left: 20px;
+}
+@media (max-width: 992px) {
+  .descProject {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .borderImage {
+    max-height: 150px;
+  }
+  .borderImageBesar {
+    max-height: 0px;
+    display: none;
+  }
+  .titleProject {
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow: 0 0 1.5px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+  }
+  .projectImageKecil {
+    justify-content: center;
+  }
+  .textKecilProject {
+    font-size: 14px;
+  }
+  .descProject {
+    padding-left: 0px;
+  }
+}

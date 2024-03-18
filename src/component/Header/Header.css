@@ -1,0 +1,111 @@
+.titleHeader {
+  font-size: 50px;
+  color: var(--text);
+}
+.underlineAndBold {
+  text-decoration: underline;
+  font-weight: 900;
+}
+.imageBorder {
+  max-height: 500px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.textKecil {
+  font-size: 19px;
+  color: var(--text);
+}
+.textBesar {
+  font-weight: 900;
+  font-size: 28px;
+  color: var(--text);
+}
+.textBesarNumber {
+  font-weight: 900;
+  font-size: 40px;
+  color: var(--text);
+  text-shadow: 0 0 1.5px rgba(0, 0, 0, 0.5);
+}
+.buttonHeader {
+  background: var(--text);
+  color: var(--bg);
+  font-size: 19px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  padding: 15px 0 15px 0;
+  transition: all 300ms ease;
+  text-decoration: none;
+}
+.buttonHeader:hover {
+  background: var(--bg);
+  color: var(--text);
+  border: 2px solid var(--text);
+  transition: all 300ms ease;
+}
+
+@media (max-width: 1600px) {
+  .titleHeader {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .titleHeader {
+    font-size: 35px;
+  }
+  .textKecil {
+    font-size: 16px;
+  }
+  .textBesar {
+    font-size: 25px;
+  }
+  .textBesarNumber {
+    font-size: 35px;
+  }
+  .buttonHeader {
+    font-size: 16px;
+  }
+}
+@media (max-width: 992px) {
+  .titleHeader {
+    font-size: 25px;
+  }
+  .textKecil {
+    font-size: 14px;
+  }
+  .textBesar {
+    font-size: 23px;
+  }
+  .textBesarNumber {
+    font-size: 35px;
+  }
+  .buttonHeader {
+    font-size: 13px;
+  }
+}
+@media (max-width: 576px) {
+  .titleHeader {
+    font-size: 20px;
+  }
+  .textKecil {
+    font-size: 12px;
+  }
+  .textBesar {
+    font-size: 20px;
+  }
+  .textBesarNumber {
+    font-size: 30px;
+  }
+  .buttonHeader {
+    font-size: 12px;
+    padding: 10px 0 10px 0;
+  }
+  .numberHeader {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}

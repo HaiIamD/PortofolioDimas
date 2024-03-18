@@ -1,0 +1,152 @@
+.navLogo {
+  font-size: 25px;
+  font-weight: 900;
+}
+.test {
+  position: fixed;
+  z-index: 100;
+  color: var(--text);
+}
+.cursorLogo {
+  color: var(--bg);
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.addBg {
+  background: var(--text);
+  color: var(--bg);
+}
+.navItems {
+  font-size: 18px;
+  color: var(--text);
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+.hamburger {
+  display: none;
+}
+.absoluteNavbar {
+  position: fixed;
+  z-index: 1000;
+}
+.rightAbosolute {
+  background-color: var(--bg);
+  color: var(--text);
+}
+.leftAbsolute {
+  background: var(--bgTrans);
+}
+.icon {
+  padding: 7px;
+  border: 2px solid var(--text);
+  border-radius: 130px;
+  background-color: var(--text);
+  color: var(--bg);
+  cursor: pointer;
+  transition: all 300ms linear;
+}
+.up {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  z-index: 10;
+  flex-direction: column;
+}
+.icon:hover {
+  border: 2px solid var(--text);
+  background-color: var(--bg);
+  color: var(--text);
+  transition: all 300ms ease;
+}
+.fixedUp {
+  position: fixed;
+  bottom: 150px;
+  left: 30px;
+  flex-direction: column;
+  z-index: 10;
+}
+.darkMode {
+  color: var(--text);
+}
+.iconDarkmode {
+  cursor: pointer;
+}
+.tooltipContact {
+  background: var(--bgTrans);
+}
+.iconDarkmode:hover,
+.smileFace:hover {
+  transform: scale(1.1);
+  transition: transform 0.15s ease;
+}
+@media (max-width: 1500px) {
+  .up {
+    bottom: 150px;
+    left: 0px;
+    background: var(--bgTrans);
+  }
+  .fixedUp {
+    bottom: 150px;
+    left: 0px;
+    background: var(--bgTrans);
+  }
+  .icon {
+    padding: 7px;
+    border: 2px solid var(--bg);
+    border-radius: 130px;
+    background-color: var(--bg);
+    color: var(--text);
+    cursor: pointer;
+    transition: all 300ms linear;
+  }
+  .darkMode {
+    color: var(--bg);
+  }
+}
+@media (max-width: 768px) {
+  .up {
+    bottom: 150px;
+    left: 0px;
+  }
+  .fixedUp {
+    bottom: 150px;
+    left: 0px;
+  }
+  .darkMode {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .navLogo {
+    font-size: 23px;
+  }
+  .navItems {
+    font-size: 18px;
+    padding: 10px;
+
+    text-decoration: none;
+  }
+  .sideCommon {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+
+    cursor: pointer;
+  }
+  .up {
+    bottom: 40px;
+    left: 0px;
+    background: var(--bgTrans);
+    transition: all 200ms ease-in-out;
+  }
+  .fixedUp {
+    background: var(--bgTrans);
+    top: 80px;
+    left: 0px;
+    max-height: 160px;
+    transition: all 200ms ease-in-out;
+  }
+}

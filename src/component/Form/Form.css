@@ -1,0 +1,33 @@
+.formInputan {
+  border: none;
+  border-bottom: 2px solid var(--text);
+  padding: 0;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.formInputan:focus {
+  outline: none; /* Optional: Removes focus outline */
+}
+.buttonForm {
+  background-color: var(--text);
+  color: var(--bg);
+  cursor: pointer;
+  border: 2px solid transparent;
+  text-align: start;
+}
+.buttonForm:hover {
+  background-color: var(--bg);
+  color: var(--text);
+  border: 2px solid var(--text);
+}
+
+@media (max-width: 578px) {
+  .formInputan {
+    font-size: 12px;
+  }
+  .buttonForm {
+    font-size: 15px;
+  }
+}

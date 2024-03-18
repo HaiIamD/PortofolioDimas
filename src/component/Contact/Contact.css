@@ -1,0 +1,75 @@
+.connectSide {
+  padding-left: 20px;
+}
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+}
+.textSocialMedia {
+  font-size: 17px;
+  font-weight: 900;
+  color: var(--text);
+  cursor: pointer;
+  text-decoration: none;
+}
+.textSocialMedia:hover {
+  background: var(--text);
+  color: var(--bg);
+  transition: all 200ms ease;
+}
+.backgroundImageContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 200px;
+  overflow: hidden;
+}
+.warnaHr {
+  background: var(--text);
+}
+.connectTittle {
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--text);
+}
+.borderGambarConnect {
+  max-height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.iconContact {
+  font-size: 30px;
+}
+@media (max-width: 768px) {
+  .borderGambarConnect {
+    max-height: 200px;
+  }
+  .socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .textSocialMedia {
+    font-size: 13px;
+  }
+  .backgroundImageContact {
+    display: none;
+  }
+  .connectSide {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 578px) {
+  .textSocialMedia {
+    font-size: 12px;
+  }
+  .iconContact {
+    font-size: 16px;
+  }
+  .connectTittle {
+    font-size: 25px;
+  }
+}

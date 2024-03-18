@@ -1,0 +1,26 @@
+.Footer {
+  justify-content: space-between;
+  background: var(--text);
+}
+.logoFooter {
+  color: var(--bg);
+}
+.footerText {
+  color: var(--bg);
+  font-size: 14px;
+  cursor: pointer;
+}
+.FooterRightSide {
+  justify-content: end;
+}
+
+@media (max-width: 578px) {
+  .Footer {
+    justify-content: center;
+    text-align: center;
+  }
+  .FooterRightSide {
+    justify-content: center;
+    text-align: start;
+  }
+}
