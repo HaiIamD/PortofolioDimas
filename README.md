@@ -67,8 +67,6 @@
 
 ###
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/HaiIamD/HaiIamD/output/snake.svg" alt="Snake animation" />
+<p align="left">Hallo teman teman semua berikut merupakan tamplate portofolio yang sudah saya buat , Terima Kasih ✨</p>
 
 ###
